@@ -1,4 +1,4 @@
 const drivers = ["Milo", "Otis", "Garfield"];
-const driversCopy = drivers.slice;
-driversCopy.push("Ralph");
-driversCopy.unshift("Bob");
+// const driversCopy = drivers.slice;
+drivers.push("Ralph");
+drivers.unshift("Bob");
