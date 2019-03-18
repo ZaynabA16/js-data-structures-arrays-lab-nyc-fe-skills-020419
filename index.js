@@ -18,5 +18,5 @@ destructivelyRemoveLastDriver();
 destructivelyRemoveFirstDriver();
 function appendDriver(name){}
 function prependDriver(name)
-function 
+function removeLastDriver()
 function
