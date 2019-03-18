@@ -16,22 +16,22 @@ destructivelyPrependDriver("Bob");
 destructivelyRemoveLastDriver();
 destructivelyRemoveFirstDriver();
 function appendDriver(name){
-const driversCopy = drivers.slice;
+let driversCopy = drivers.slice;
 driversCopy.push(name);
 return; 
 }
 function prependDriver(name){
-const driversCopy = drivers.slice;  
+let driversCopy = drivers.slice;  
 driversCopy.unshift(name);
 return;
 }
 function removeLastDriver(){
-const driversCopy = drivers.slice; 
+let driversCopy = drivers.slice; 
 driversCopy.pop();
 return;
 }
 function removeFirstDriver(){
-const driversCopy = drivers.slice;
+let driversCopy = drivers.slice;
 driversCopy.shift();
 return;
 }
