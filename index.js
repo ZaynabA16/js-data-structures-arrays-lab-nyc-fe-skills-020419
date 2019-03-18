@@ -15,15 +15,14 @@ destructivelyAppendDriver("Ralph")
 destructivelyPrependDriver("Bob");
 destructivelyRemoveLastDriver();
 destructivelyRemoveFirstDriver();
+
 function appendDriver(name){
-// let driversCopy= drivers.slice;
-driversCopy.push(name);
-return; 
+let driversCopy= drivers.slice;
+return driversCopy.push(name);
 }
 function prependDriver(name){
 let driversCopy= drivers.slice;  
-driversCopy.unshift(name);
-return;
+return driversCopy.unshift(name);
 }
 function removeLastDriver(){
 let driversCopy= drivers.slice; 
