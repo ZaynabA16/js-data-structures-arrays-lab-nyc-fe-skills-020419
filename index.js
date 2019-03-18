@@ -22,7 +22,7 @@ return;
 }
 function prependDriver(name){
 let driversCopy= drivers.slice;  
-drivers.splice(2,0, name);
+driversCopy.unshift(name);
 return;
 }
 function removeLastDriver(){
