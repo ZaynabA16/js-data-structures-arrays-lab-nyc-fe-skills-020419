@@ -17,12 +17,18 @@ destructivelyPrependDriver("Bob");
 destructivelyRemoveLastDriver();
 destructivelyRemoveFirstDriver();
 
+appendDriver("Broom")
+prependDriver("Arnold");
+removeLastDriver();
+removeFirstDriver();
 
 function appendDriver(name){
-return driversCopy.push(name);
+driversCopy.push(name);
+return;
 }
 function prependDriver(name){
-return driversCopy.unshift(name);
+driversCopy.unshift(name);
+return;
 }
 function removeLastDriver(){
 driversCopy.pop();
@@ -32,7 +38,3 @@ function removeFirstDriver(){
 driversCopy.shift();
 return;
 }
-appendDriver("Broom")
-prependDriver("Arnold");
-removeLastDriver();
-removeFirstDriver();
