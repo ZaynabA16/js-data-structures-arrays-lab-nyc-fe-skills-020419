@@ -1,8 +1,12 @@
 const drivers = ["Milo", "Otis", "Garfield"];
 // const driversCopy = drivers.slice;
-function destructi
+function destructivelyAppendDriver(name){}
 drivers.push("Ralph");
+}
+function
 drivers.unshift("Bob");
+function 
 drivers.pop();
+function 
 drivers.shift();
 
