@@ -31,7 +31,7 @@ function removeFirstDriver(){
 driversCopy.shift();
 return;
 }
-driversCopy.appendDriver("Broom")
-driversCopy.prependDriver("Arnold");
+appendDriver("Broom")
+prependDriver("Arnold");
 removeLastDriver();
 removeFirstDriver();
