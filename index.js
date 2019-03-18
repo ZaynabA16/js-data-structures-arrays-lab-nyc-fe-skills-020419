@@ -1,2 +1,2 @@
 const drivers = ["Milo", "Otis", "Garfield"];
-drivers.push = ["Ralph"];
+push.drivers = "Ralph";
