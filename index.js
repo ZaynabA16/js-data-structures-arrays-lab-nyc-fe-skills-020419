@@ -15,9 +15,9 @@ destructivelyAppendDriver("Ralph")
 destructivelyPrependDriver("Bob");
 destructivelyRemoveLastDriver();
 destructivelyRemoveFirstDriver();
-
-function appendDriver(name){
 let driversCopy= drivers.slice;
+function appendDriver(name){
+
 return driversCopy.push(name);
 }
 function prependDriver(name){
