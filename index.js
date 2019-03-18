@@ -35,7 +35,7 @@ const driversCopy = drivers.slice;
 driversCopy.shift();
 return;
 }
-appendDriver("Ralph")
-prependDriver("Bob");
+appendDriver("Broom")
+prependDriver("Arnold");
 removeLastDriver();
 removeFirstDriver();
