@@ -33,7 +33,6 @@ driversCopy.unshift(name);
 return driversCopy;
 }
 function removeLastDriver(){
-let driversCopy = drivers.slice();
 driversCopy.pop();
 return driversCopy;
 }
