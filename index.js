@@ -12,12 +12,12 @@ drivers.pop();
 function destructivelyRemoveFirstDriver(){
 drivers.shift();
 }
-destructivelyAppendDriver("Ralph")
+destructivelyAppendDriver("Ralph");
 destructivelyPrependDriver("Bob");
 destructivelyRemoveLastDriver();
 destructivelyRemoveFirstDriver();
 
-appendDriver("Broom")
+appendDriver("Broom");
 prependDriver("Arnold");
 removeLastDriver();
 removeFirstDriver();
